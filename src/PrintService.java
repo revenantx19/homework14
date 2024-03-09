@@ -1,8 +1,8 @@
 public class PrintService {
 
-    public void printMostPowerfulStudent(griffindor[] griffindors, slizerin[] slizerins) {
-        griffindor harry = griffindors[0];
-        slizerin malfoi = slizerins[0];
+    public void printMostPowerfulStudent(Griffindor griffindor1, Slizerin slizerins1) {
+        Griffindor harry = griffindor1;
+        Slizerin malfoi = slizerins1;
         int powerHarry = harry.getMagicPower() + harry.getDistanceTransgression();
         int powerMalfoi = malfoi.getMagicPower() + malfoi.getDistanceTransgression();
         if (powerHarry > powerMalfoi) {
@@ -13,9 +13,9 @@ public class PrintService {
             System.out.println(malfoi.getName() + " обладает бОльшей мощностью магии, чем " + harry.getName());
         }
     }
-    public void print(griffindor[] griffindors) {
+    public void print(Griffindor[] griffindors) {
         for (int i = 0; i < griffindors.length; i++) {
-            griffindor person = griffindors[i];
+            Griffindor person = griffindors[i];
             System.out.println("Имя: " + person.getName()
                     + "; Сила магии: " + person.getMagicPower()
                     + "; Дистанция перемещения: " + person.getDistanceTransgression()
@@ -25,9 +25,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void printPowerGriffindor(griffindor[] griffindors) {
-        griffindor harry = griffindors[0];
-        griffindor hermiona = griffindors[1];
+    public void printPowerGriffindor(Griffindor griffindor1, Griffindor griffindor2) {
+        Griffindor harry = griffindor1;
+        Griffindor hermiona = griffindor2;
         int powerHarry = harry.getBravery() + harry.getHonor() + harry.getNobility();
         int powerHermiona = hermiona.getBravery() + hermiona.getHonor() + hermiona.getNobility();
         if (powerHarry > powerHermiona) {
@@ -39,9 +39,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void print(puffenduy[] puffenduys) {
+    public void print(Puffenduy[] puffenduys) {
         for (int i = 0; i < puffenduys.length; i++) {
-            puffenduy person = puffenduys[i];
+            Puffenduy person = puffenduys[i];
             System.out.println("Имя: " + person.getName()
                     + "; Сила магии: " + person.getMagicPower()
                     + "; Дистанция перемещения: " + person.getDistanceTransgression()
@@ -51,9 +51,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void printPowerPuffenduy(puffenduy[] puffenduys) {
-        puffenduy zaxaria = puffenduys[0];
-        puffenduy sedric = puffenduys[1];
+    public void printPowerPuffenduy(Puffenduy puffenduy1, Puffenduy puffenduy2) {
+        Puffenduy zaxaria = puffenduy1;
+        Puffenduy sedric = puffenduy2;
         int powerZaxaria = zaxaria.getHardworking() + zaxaria.getHonest() + zaxaria.getRight();
         int powerSedric = sedric.getHardworking() + sedric.getHonest() + sedric.getRight();
         if (powerZaxaria > powerSedric) {
@@ -65,9 +65,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void print(kogtevran[] kogtevrans) {
+    public void print(Kogtevran[] kogtevrans) {
         for (int i = 0; i < kogtevrans.length; i++) {
-            kogtevran person = kogtevrans[i];
+            Kogtevran person = kogtevrans[i];
             System.out.println("Имя: " + person.getName()
                     + "; Сила магии: " + person.getMagicPower()
                     + "; Дистанция перемещения: " + person.getDistanceTransgression()
@@ -78,9 +78,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void printPowerKogtevran(kogtevran[] kogtevrans) {
-        kogtevran chzhou = kogtevrans[0];
-        kogtevran padma = kogtevrans[1];
+    public void printPowerKogtevran(Kogtevran kogtevran1, Kogtevran kogtevran2) {
+        Kogtevran chzhou = kogtevran1;
+        Kogtevran padma = kogtevran2;
         int powerChzhou = chzhou.getSmart() + chzhou.getWise() + chzhou.getWitty() + chzhou.getCreative();
         int powerPadma = padma.getSmart() + padma.getWise() + padma.getWitty() + padma.getCreative();
         if (powerChzhou > powerPadma) {
@@ -92,9 +92,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void print(slizerin[] slizerins) {
+    public void print(Slizerin[] slizerins) {
         for (int i = 0; i < slizerins.length; i++) {
-            slizerin person = slizerins[i];
+            Slizerin person = slizerins[i];
             System.out.println("Имя: " + person.getName()
                     + "; Сила магии: " + person.getMagicPower()
                     + "; Дистанция перемещения: " + person.getDistanceTransgression()
@@ -106,9 +106,9 @@ public class PrintService {
         }
         System.out.println();
     }
-    public void printPowerSlizerin(slizerin[] slizerins) {
-        slizerin malfoi = slizerins[0];
-        slizerin grehem = slizerins[1];
+    public void printPowerSlizerin(Slizerin slizerin1, Slizerin slizerin2) {
+        Slizerin malfoi = slizerin1;
+        Slizerin grehem = slizerin2;
         int powerMalfoi = malfoi.getTricky() + malfoi.getResolute() + malfoi.getAmbition() + malfoi.getResourcefulness() + malfoi.getThirstOfPower();
         int powerGrehem = grehem.getTricky() + grehem.getResolute() + grehem.getAmbition() + grehem.getResourcefulness() + grehem.getThirstOfPower();
         if (powerMalfoi > powerGrehem) {

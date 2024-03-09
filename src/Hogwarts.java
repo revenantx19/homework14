@@ -1,9 +1,9 @@
-public class hogwarts {
+public class Hogwarts {
     private int magicPower;
     private int distanceTransgression;
     private String name;
 
-    public hogwarts(String name, int magicPower, int distanceTransgression) {
+    public Hogwarts(String name, int magicPower, int distanceTransgression) {
         this.name = name;
         this.magicPower = magicPower;
         this.distanceTransgression = distanceTransgression;

@@ -1,10 +1,10 @@
-public class kogtevran extends hogwarts {
+public class Kogtevran extends Hogwarts {
     private int smart; //умный
     private int wise; //мудрый
     private int witty; //остроумный
     private int creative; //творческий
 
-    public kogtevran(String name, int magicPower, int distanceTransgression, int smart, int wise, int witty, int creative) {
+    public Kogtevran(String name, int magicPower, int distanceTransgression, int smart, int wise, int witty, int creative) {
         super(name, magicPower, distanceTransgression);
         this.smart = smart;
         this.wise = wise;

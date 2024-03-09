@@ -1,9 +1,9 @@
-public class puffenduy extends hogwarts {
+public class Puffenduy extends Hogwarts {
     private int hardworking; //трудолюбивый
     private int right; //верный
     private int honest; //честный
 
-    public puffenduy(String name, int magicPower, int distanceTransgression, int hardworking, int right, int honest) {
+    public Puffenduy(String name, int magicPower, int distanceTransgression, int hardworking, int right, int honest) {
         super(name, magicPower, distanceTransgression);
         this.hardworking = hardworking;
         this.right = right;

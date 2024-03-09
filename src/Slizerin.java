@@ -1,11 +1,11 @@
-public class slizerin extends hogwarts{
+public class Slizerin extends Hogwarts{
     private int tricky; //хитрый
     private int resolute; //решительный
     private int ambition; //амбициозный
     private int resourcefulness; //находчивость
     private int thirstOfPower; //жажда власти
 
-    public slizerin(String name, int magicPower, int distanceTransgression, int tricky, int resolute, int ambition, int resourcefulness, int thirstOfPower) {
+    public Slizerin(String name, int magicPower, int distanceTransgression, int tricky, int resolute, int ambition, int resourcefulness, int thirstOfPower) {
         super(name, magicPower, distanceTransgression);
         this.tricky = tricky;
         this.resolute = resolute;
